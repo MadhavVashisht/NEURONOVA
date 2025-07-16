@@ -1,0 +1,12 @@
+# yolo_params.yaml
+
+train: data/train/images       # Path to your training images folder (relative to your train.py location)
+val: data/val/images           # Path to validation images folder
+test: data/test/images         # Path to test images folder — add `/images` if missing, should be consistent
+
+nc: 3                         # Number of classes — keep as 3 (FireExtinguisher, ToolBox, OxygenTank)
+
+names:
+  0: FireExtinguisher
+  1: ToolBox
+  2: OxygenTank
